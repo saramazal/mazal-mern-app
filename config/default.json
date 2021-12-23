@@ -1,5 +1,5 @@
 {
     "port": 5000,
-    "mongoUri": "mongodb+srv://saramazal:it$awondefullife8&8@cluster0.qkavy.mongodb.net/app?retryWrites=true&w=majority"
+    "mongoUri": ""
    
 }
