@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/saramazal/mazal-mern-app#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "config": "^3.3.6",
     "express": "^4.17.2",
+    "express-validator": "^6.14.0",
     "mongoose": "^6.1.2"
   },
   "devDependencies": {

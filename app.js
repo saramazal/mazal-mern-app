@@ -5,6 +5,7 @@ const mongoose = require('mongoose')
 
 
 const app = express()
+app.use('api/auth', require('./routes/auth.routes'))
 
 app.use(express.json({ extended: true }))
 
@@ -15,10 +16,8 @@ async function start() {
   try {
     await mongoose.connect(config.get('mongoUri'), {
       useNewUrlParser: true,
-        useUnifiedTopology: true,
-        
-        
-    })
+        //useUnifiedTopology: true,
+           })
     app.listen(PORT, () => console.log(`App has been started on port ${PORT}...`))
   } catch (e) {
     console.log('Server Error', e.message)
