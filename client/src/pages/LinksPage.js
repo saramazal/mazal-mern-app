@@ -4,11 +4,11 @@ import {useMessage} from '../hooks/message.hook'
 import {AuthContext} from '../context/AuthContext'
 
 
-export const CreatePage = () => {
+export const LinksPage = () => {
 
      return ( 
            <div className="row">
-<h2>Create Page</h2>
+<h2>Links Page</h2>
             </div>
   )
 }
